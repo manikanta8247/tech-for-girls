@@ -173,7 +173,7 @@ form.addEventListener('submit', async (e) => {
         body: JSON.stringify(payload)
       });
       // For no-cors, response handling is limited
-      document.getElementById('message').textContent = "🎉 Your submission has been recorded. Thanks for being part of Tech for Girls!";
+      document.getElementById('message').textContent = " Your submission has been recorded. Thanks for being part of Tech for Girls!";
       localStorage.setItem('submitted', 'true');
     } catch (error) {
       alert('Error submitting data. Please try again.');
